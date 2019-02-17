@@ -4,7 +4,11 @@ import cv2
 from directKeys import click, queryMousePosition
 import time
 
+# Game coordinates can be grabbed by performing a print screen
+# and using paint to find the x,y coordinates
 game_coords = [163, 607, 543, 747]
+# Bubble is to prevent firing at dead enemies, need to change
+# to list of bubbles.
 bubble = [0, 0, 0, 0]
 x_width = 30
 y_width = 30

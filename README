@@ -1,7 +1,16 @@
-this is based on a video that code bullet made
+This is based on a video that code bullet made.
+
+The scipt will auto click on the soldiers as the appear from the left
+of the screen. A region must be selected first to focus the CV processing.
+You will still need to press the <space bar> to manually load the bullets.
+There is a sleep time between each bullet fire because the clicks cannot
+process at the speed given.
 
 this requires:
 python -m pip install numpy
 python -m pip install Pillow
 python -m pip install opencv-python
 python -m pip install pywin32
+
+The game URL:
+http://www.crazygames.com/game/storm-the-house
