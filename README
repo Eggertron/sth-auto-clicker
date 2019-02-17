@@ -1,0 +1,7 @@
+this is based on a video that code bullet made
+
+this requires:
+python -m pip install numpy
+python -m pip install Pillow
+python -m pip install opencv-python
+python -m pip install pywin32
